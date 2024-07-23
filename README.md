@@ -1,2 +1,1 @@
-# Bootcamp-Frontend-24
-# Charly Aleandre Terrazas Rosado
+# Charly Alexandre Terrazas Rosado
