@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Weather Dashboard Styles */
+.weather-dashboard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+/* Search Input and Button */
+#citySearch {
+  width: calc(100% - 120px);
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#searchButton {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+  background-color: #0056b3;
+}
+
+/* Previous Searches */
+#previousSearches {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.city-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.city-button:hover {
+  background-color: #218838;
+}
+
+/* Weather Data Display */
+#weatherData {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+#weatherData div {
+  margin-bottom: 0.5rem;
+}
+
+/* Error Message */
+#weatherData .error {
+  color: #dc3545;
+  font-weight: bold;
+}

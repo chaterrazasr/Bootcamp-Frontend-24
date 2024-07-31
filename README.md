@@ -1,1 +1,0 @@
-# Charly Alexandre Terrazas Rosado
